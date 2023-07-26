@@ -1,5 +1,5 @@
 {
-  "name": "new-folder-(3)",
+  "name": "playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.36.2"
+    "@playwright/test": "^1.25.2"
   }
 }
