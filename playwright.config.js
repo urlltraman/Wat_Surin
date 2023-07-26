@@ -5,7 +5,7 @@ const { defineConfig, devices } = require('@playwright/test');
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-
+// require('dotenv').config();
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -65,13 +65,7 @@ module.exports = defineConfig({
     // },
     {
       name: 'Google Chrome',
-      use: { ...devices['Desktop Chrome'], 
-      
-      viewport: {width: 1440, height: 764},
-      
-      channel: 'chrome' },
-      
-
+      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
   ],
 
